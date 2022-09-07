@@ -7,13 +7,19 @@ npx eslint ./src/*.js --fix
 # Art origination
 
 Public Domain:
-https://unsplash.com/photos/yJpjLD3c9bU
-https://images.unsplash.com/photo-1621504450181-5d356f61d307?ixlib=rb-1.2.1&dl=art-rachen-yJpjLD3c9bU-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb
-
-https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?ixlib=rb-1.2.1&dl=sean-do-EHLd2utEf68-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb
-https://images.unsplash.com/photo-1639762681057-408e52192e55?ixlib=rb-1.2.1&dl=guerrillabuzz-crypto-pr-UxDU0Gg5pqQ-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb
-https://images.unsplash.com/photo-1639322537504-6427a16b0a28?ixlib=rb-1.2.1&dl=guerrillabuzz-crypto-pr-gC_aoAjQl2Q-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb
-https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-1.2.1&dl=maxim-hopman-fiXLQXAhCfk-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb
+* https://unsplash.com/photos/yJpjLD3c9bU
+* https://images.unsplash.com/photo-1621504450181-5d356f61d307?ixlib=rb-1.2.1&dl=art-rachen-yJpjLD3c9bU-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb
+* https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?ixlib=rb-1.2.1&dl=sean-do-EHLd2utEf68-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb
+* https://images.unsplash.com/photo-1639762681057-408e52192e55?ixlib=rb-1.2.1&dl=guerrillabuzz-crypto-pr-UxDU0Gg5pqQ-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb
+* https://images.unsplash.com/photo-1639322537504-6427a16b0a28?ixlib=rb-1.2.1&dl=guerrillabuzz-crypto-pr-gC_aoAjQl2Q-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb
+* https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-1.2.1&dl=maxim-hopman-fiXLQXAhCfk-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb
+
+# Docker
+
+To test docker locally
+```shell
+docker compose --profile dev up -d --build
+```
 
 ---
 old
