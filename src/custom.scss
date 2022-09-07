@@ -1,0 +1,37 @@
+// change the theme
+//$theme-colors: (
+//        "primary": #934dfe,
+//        "secondary": #fe7600,
+//        "dark": #fe7600
+//);
+
+//$blue:    #0d6efd !default;
+//$indigo:  #6610f2 !default;
+//$purple:  #6f42c1 !default;
+
+$blue: #1a1acb;
+$indigo:  #6610f2;
+$purple:  #6f42c1;
+$pink:    #d63384;
+$red: #d71f33;
+$orange:  #fd7e14;
+$yellow:  #ffc107;
+$green: #198722;
+$teal:    #20c997;
+$cyan:    #0dcaf0;
+
+$primary: #934dfe;
+$secondary: #fe7600;
+//$success: #19871f;
+//$info:          #0dcaf0;
+//$warning:       #ffc107;
+//$danger:        #dc3545;
+//$light:         $gray-100 !default;
+//$dark:          $gray-900 !default;
+
+$body-bg: #343a40;
+
+$carousel-control-icon-width:        5rem;
+
+// Import Bootstrap and its default variables
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
