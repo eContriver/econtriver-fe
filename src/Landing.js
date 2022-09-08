@@ -3,6 +3,7 @@ import { ErrorBoundary } from "react-error-boundary";
 import ErrorHandler from "./ErrorHandler";
 import Footer from "./Footer";
 import Header from "./Header";
+import Code from "./Code.jpg";
 import Coins from "./Coins.jpg";
 import Blockchain from "./BlockOfBlocks.jpg";
 import Gaming from "./Gaming.jpg";
@@ -14,6 +15,23 @@ const MainCarousel = () => {
   const itemStyle = { height: "500px" };
   return (
     <Carousel className="border border-dark">
+      <Carousel.Item style={itemStyle}>
+        <div
+          className="rounded fix-w-crop-h"
+          style={{ backgroundImage: `url(${Code})` }}
+        />
+        <Carousel.Caption>
+          <div
+            className="bg-light bg-gradient rounded border border-muted"
+            style={{ "--bs-bg-opacity": 0.75 }}
+          >
+            <h3 className="text-dark">Software Engineering</h3>
+            <p className="text-muted">
+              Struggling to complete your software project? Let&apos;s talk!
+            </p>
+          </div>
+        </Carousel.Caption>
+      </Carousel.Item>
       <Carousel.Item style={itemStyle}>
         <div
           className="rounded fix-w-crop-h"
@@ -239,14 +257,15 @@ const Landing = () => {
                       </u>
                     </h5>
                     <h6 className="text-muted">
-                      We are a software engineering company.
+                      Over 15 years of software engineering experience.
                     </h6>
                     <MainCarousel />
                     {/* <BadCarousel /> */}
                     <hr />
-                    We have expertise in Cryptocurrencies, Blockchains, NFTs
-                    (ERC-721 and ERC-1155), Tokens (ERC-20), Game Development,
-                    as well as Security and Asset Analysis.
+                    We have expertise in Software Engineering, System
+                    Architecture, Cryptocurrencies, Blockchains, NFTs (ERC-721
+                    and ERC-1155), Tokens (ERC-20), Game Development, as well as
+                    Security and Asset Analysis.
                   </div>
                 </div>
               </div>
