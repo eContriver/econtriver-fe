@@ -25,7 +25,9 @@ export default function Footer() {
       <div className="row">
         <div className="col">
           <footer className="d-flex flex-wrap justify-content-between align-items-top py-3 my-4 border-top container">
-            <p className="col-md-4 mb-0 text-black">© 2022 eContriver LLC</p>
+            <p className="col-md-4 mb-0 text-black">
+              © 2017-2023 eContriver LLC
+            </p>
             <a
               href="/"
               className="col col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
@@ -47,7 +49,7 @@ export default function Footer() {
                             <path d="M75.48,86.7c2,0,3.71-1.23,4.41-2.98,2.99,1.88,6.52,2.98,10.31,2.98,10.74,0,19.48-8.74,19.48-19.48s-8.74-19.48-19.48-19.48c-3.64,0-7.04,1.02-9.96,2.77v-15.83c0-2.63-2.13-4.76-4.76-4.76s-4.76,2.13-4.76,4.76v47.27c0,2.63,2.13,4.76,4.76,4.76Zm14.72-29.44c5.49,0,9.96,4.47,9.96,9.96s-4.47,9.96-9.96,9.96-9.96-4.47-9.96-9.96,4.47-9.96,9.96-9.96Z"/>
                         </svg>
                     </a>
-                    <span className="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+                    <span className="mb-3 mb-md-0 text-muted">© 2017-2023 Company, Inc</span>
                 </div> */}
 
             <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
