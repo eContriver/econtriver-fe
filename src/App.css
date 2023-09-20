@@ -7,6 +7,10 @@
     height: 100%;
 }
 
+.form-control {
+    background-color: #a1a1a1;
+}
+
 
 /*body {*/
 /*  background-color: var(--bs-body-bg);*/

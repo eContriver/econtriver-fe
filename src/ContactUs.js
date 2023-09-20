@@ -42,23 +42,46 @@ const ContactForm = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input
-        value={formData.name}
-        onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-        placeholder="Name"
-      />
-      <input
-        type="email"
-        value={formData.email}
-        onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-        placeholder="Email"
-      />
-      <textarea
-        value={formData.message}
-        onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-        placeholder="Message"
-      ></textarea>
-      <button type="submit">Send</button>
+      <div className={`form-group`}>
+        <label htmlFor={"name"}>Name</label>
+        <input
+          value={formData.name}
+          className={`form-control`}
+          id={"name"}
+          onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+          placeholder="Name"
+        />
+      </div>
+      <div className={`form-group`}>
+        <label htmlFor={"email"}>Email</label>
+        <input
+          id={"email"}
+          className={`form-control`}
+          type="email"
+          value={formData.email}
+          onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+          placeholder="Email"
+        />
+        <small className={`form-text text-muted`} id={"emailSmall"}>
+          We&apos;ll never share your email with anyone else.
+        </small>
+      </div>
+      <div className={`form-group`}>
+        <label htmlFor={"message"}>Message</label>
+        <textarea
+          id={"message"}
+          className={`form-control`}
+          value={formData.message}
+          onChange={(e) =>
+            setFormData({ ...formData, message: e.target.value })
+          }
+          placeholder="Message"
+        ></textarea>
+      </div>
+      <br />
+      <button type="submit" className={`btn btn-primary`}>
+        Send
+      </button>
     </form>
   );
 };
@@ -85,10 +108,9 @@ const ContactUs = () => {
                     <h6 className="text-muted">
                       We are a software engineering company.
                     </h6>
-                    We have expertise in EVM Blockchains (nodes and protocols),
-                    NFTs (ERC-721 and ERC-1155), Tokens (ERC-20), Game
-                    Development (Cocos and Unity), as well as Security/Asset
-                    Analysis.
+                    We are building Perpetuator, an AI powered system which can
+                    answer questions in natural language about documents. We are
+                    also experts in the Blockchain space.
                   </div>
                 </div>
               </div>
