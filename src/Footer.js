@@ -6,7 +6,7 @@ export default function Footer() {
     <div className="container">
       <div className="row">
         <div
-          className="col col-12 mt-2 p-3 text-muted bg-dark bg-gradien border-primary border rounded-3"
+          className="col col-12 mt-2 p-3 text-muted bg-dark border-primary border rounded-3"
           // style={{ "--bs-bg-opacity": 0.75 }}
         >
           If you would like to get in touch with us or join our community, then
