@@ -77,6 +77,11 @@ const ContactForm = () => {
           }
           placeholder="Message"
         ></textarea>
+        <small className={`form-text text-muted`} id={"messageSmall"}>
+          Tell us what you are interested in or what you need help with. If you
+          want to join the team, then please provide a quick note on what skills
+          you think you can bring to the table.
+        </small>
       </div>
       <br />
       <button type="submit" className={`btn btn-primary`}>
