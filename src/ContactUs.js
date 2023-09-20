@@ -84,6 +84,7 @@ const ContactForm = () => {
         </small>
       </div>
       <br />
+      <Messages />
       <button type="submit" className={`btn btn-primary`}>
         Send
       </button>
@@ -122,7 +123,6 @@ const ContactUs = () => {
             </div>
           </div>
           <ContactForm />
-          <Messages />
         </div>
         <Footer />
       </ErrorBoundary>
